@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Cédula del Propietario"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCedula"
+        android:layout_marginTop="8dp"
+        android:hint="Nombres del Propietario"/>
+
+    <EditText
+        android:id="@+id/etPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombres"
+        android:layout_marginTop="8dp"
+        android:hint="Número de placa"/>
+
+    <EditText
+        android:id="@+id/etAnioFabricacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPlaca"
+        android:layout_marginTop="8dp"
+        android:hint="Año de Fabricación del Vehículo"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAnioFabricacion"
+        android:layout_marginTop="8dp"
+        android:hint="Marca"/>
+
+    <EditText
+        android:id="@+id/etColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMarca"
+        android:layout_marginTop="8dp"
+        android:hint="Color"/>
+
+    <EditText
+        android:id="@+id/etTipoVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etColor"
+        android:layout_marginTop="8dp"
+        android:hint="Tipo de Vehículo"/>
+
+    <EditText
+        android:id="@+id/etValorVehiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTipoVehiculo"
+        android:layout_marginTop="8dp"
+        android:hint="Valor del Vehículo"
+        android:inputType="numberDecimal"/>
+
+    <CheckBox
+        android:id="@+id/cbMultas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etValorVehiculo"
+        android:layout_marginTop="8dp"
+        android:text="Posee multas"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbMultas"
+        android:layout_marginTop="16dp"
+        android:text="Enviar"/>
+</RelativeLayout>

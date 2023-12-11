@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExamenPrimeraParcialMovil</string>
+    <string name="hint_cedula">Número de Cédula del Propietario</string>
+    <string name="hint_nombres">Nombres del Propietario</string>
+
+
 </resources>
