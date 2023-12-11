@@ -37,7 +37,7 @@ public class Matricula extends AppCompatActivity {
         double multacontaminacion = 0;
         double multa = 0;
         double total = 0;
-        
+
         if ('1' == Cedula.charAt(0) && 'i'== Placa.charAt(0)){
             renovacion = 0.05 * basico;
             lblRenovacion.setText("Importe por renovacion de " + renovacion +  " Dolares");
