@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Obtener datos del formulario
                 EditText etCedula = findViewById(R.id.etCedula);
                 EditText etNombres = findViewById(R.id.etNombres);
                 EditText etPlaca = findViewById(R.id.etPlaca);
@@ -31,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 EditText etValorVehiculo = findViewById(R.id.etValorVehiculo);
                 CheckBox cbMultas = findViewById(R.id.cbMultas);
 
-                // Enviar datos a la siguiente actividad
                 Intent intent = new Intent(MainActivity.this, ValidacionActivity.class);
                 intent.putExtra("cedula", etCedula.getText().toString());
                 intent.putExtra("nombres", etNombres.getText().toString());

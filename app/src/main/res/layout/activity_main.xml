@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingTop="16dp"
-    android:paddingRight="16dp"
-    android:paddingBottom="16dp"
+    android:padding="16dp"
+    android:background="#2C2C2C"
     tools:context=".MainActivity">
 
     <EditText
@@ -14,7 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Número de Cédula del Propietario"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etNombres"
@@ -22,7 +22,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etCedula"
         android:layout_marginTop="8dp"
-        android:hint="Nombres del Propietario"/>
+        android:hint="Nombres del Propietario"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etPlaca"
@@ -30,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etNombres"
         android:layout_marginTop="8dp"
-        android:hint="Número de placa"/>
+        android:hint="Número de placa"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etAnioFabricacion"
@@ -39,7 +43,9 @@
         android:layout_below="@id/etPlaca"
         android:layout_marginTop="8dp"
         android:hint="Año de Fabricación del Vehículo"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etMarca"
@@ -47,7 +53,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etAnioFabricacion"
         android:layout_marginTop="8dp"
-        android:hint="Marca"/>
+        android:hint="Marca"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etColor"
@@ -55,7 +63,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etMarca"
         android:layout_marginTop="8dp"
-        android:hint="Color"/>
+        android:hint="Color"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etTipoVehiculo"
@@ -63,7 +73,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etColor"
         android:layout_marginTop="8dp"
-        android:hint="Tipo de Vehículo"/>
+        android:hint="Tipo de Vehículo"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <EditText
         android:id="@+id/etValorVehiculo"
@@ -72,7 +84,9 @@
         android:layout_below="@id/etTipoVehiculo"
         android:layout_marginTop="8dp"
         android:hint="Valor del Vehículo"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#9984B6" />
 
     <CheckBox
         android:id="@+id/cbMultas"
@@ -80,7 +94,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etValorVehiculo"
         android:layout_marginTop="8dp"
-        android:text="Posee multas"/>
+        android:text="Posee multas"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnSubmit"
