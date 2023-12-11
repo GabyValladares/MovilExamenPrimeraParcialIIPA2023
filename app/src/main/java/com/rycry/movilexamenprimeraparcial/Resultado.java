@@ -32,7 +32,7 @@ public class Resultado extends AppCompatActivity {
         tvResultadoNombre.setText("Nombre: " + nombre);
         tvResultadoCedula.setText("Cédula: " + cedula);
         edResultadolmporteRenovacion.setText(String.valueOf(importeRenovacion));
-        edResultadoMultasSiNo.setText(tieneMultas ? "" : "No");
+        edResultadoMultasSiNo.setText(tieneMultas ? "108.75" : "No");
         edResultadoValorTotal.setText(String.valueOf(valorTotal));
         edResultadoValorMarcaTipo.setText(String.valueOf(valorMarcaTipo));
         edResultadoMultaContaminacion.setText(String.valueOf(multaContaminacion));
