@@ -4,4 +4,19 @@
         <item>Toyota</item>
         <item>Suzuki</item>
     </string-array>
+    <string-array name="Tipo">
+        <item>Camioneta</item>
+        <item>Jeep</item>
+        <item>Vitara</item>
+        <item>automovil</item>
+    </string-array>
+    <string-array name="Colores">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Negro</item>
+    </string-array>
+    <string-array name="Opciones">
+        <item>Si</item>
+        <item>No</item>
+    </string-array>
 </resources>

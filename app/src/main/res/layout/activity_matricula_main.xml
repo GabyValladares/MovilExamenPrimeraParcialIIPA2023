@@ -99,6 +99,7 @@
         android:id="@+id/btnEnviar"
         android:layout_width="161dp"
         android:layout_height="61dp"
+        android:onClick="Enviar"
         android:text="Enviar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

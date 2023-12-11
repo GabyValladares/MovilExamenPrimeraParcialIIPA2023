@@ -13,10 +13,14 @@
         android:theme="@style/Theme.ExamenPrimeraParcialMovil"
         tools:targetApi="31">
         <activity
+            android:name=".Matricula"
+            android:exported="false" />
+        <activity
             android:name=".MatriculaMain"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
