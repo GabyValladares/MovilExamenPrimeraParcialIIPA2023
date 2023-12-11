@@ -8,11 +8,12 @@
 
     <TextView
         android:id="@+id/lblTitulo1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="124dp"
+        android:layout_width="256dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
         android:text="FORMULARIO VEHICULOS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -98,20 +99,20 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        android:layout_width="184dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="48dp"
+        android:layout_width="339dp"
+        android:layout_height="77dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
         android:text="CALCULAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/txtNombres"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="173dp"
+        android:layout_height="43dp"
         android:layout_marginTop="176dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="text"
         android:text="N"
@@ -120,10 +121,10 @@
 
     <EditText
         android:id="@+id/txtPlaca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="179dp"
+        android:layout_height="45dp"
         android:layout_marginTop="228dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="text"
         android:text="N"
@@ -132,8 +133,8 @@
 
     <EditText
         android:id="@+id/txtAnio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="186dp"
+        android:layout_height="50dp"
         android:layout_marginTop="292dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
@@ -144,8 +145,8 @@
 
     <EditText
         android:id="@+id/txtMarca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="184dp"
+        android:layout_height="46dp"
         android:layout_marginTop="364dp"
         android:layout_marginEnd="36dp"
         android:ems="10"
@@ -156,8 +157,8 @@
 
     <EditText
         android:id="@+id/txtTipoVehiculo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="188dp"
+        android:layout_height="51dp"
         android:layout_marginTop="476dp"
         android:layout_marginEnd="28dp"
         android:ems="10"
@@ -168,8 +169,8 @@
 
     <EditText
         android:id="@+id/txtMultas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
         android:layout_marginTop="532dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
@@ -180,8 +181,8 @@
 
     <EditText
         android:id="@+id/txtColor"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="188dp"
+        android:layout_height="49dp"
         android:layout_marginTop="424dp"
         android:layout_marginEnd="32dp"
         android:ems="10"
@@ -192,10 +193,10 @@
 
     <EditText
         android:id="@+id/txtCedula"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="183dp"
+        android:layout_height="47dp"
         android:layout_marginTop="116dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="text"
         android:text="N"

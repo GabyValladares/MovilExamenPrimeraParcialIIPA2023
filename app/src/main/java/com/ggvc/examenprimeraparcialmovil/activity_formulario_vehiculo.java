@@ -49,16 +49,27 @@ public class activity_formulario_vehiculo extends AppCompatActivity {
         String tipoVehiculo = txtTipoVehiculo.getText().toString();
         String multas = txtMultas.getText().toString();
 
-        // Convertir valores según sea necesario (puedes usar Integer.parseInt o Double.parseDouble)
+        // Realizar la lógica de cálculos aquí (usar Double.parseDouble para convertir a números)
+        double importeRenovacion = 50.0; // Reemplazar con la lógica real
+        double valorMatricula = 100.0;   // Reemplazar con la lógica real
+        double multaContaminacion = 20.0; // Reemplazar con la lógica real
+        double multaPorMultas = 30.0;    // Reemplazar con la lógica real
 
-        // Realizar la lógica de cálculos aquí
+        // Calcular el total a pagar
+        double totalPagar = importeRenovacion + valorMatricula + multaContaminacion + multaPorMultas;
 
         // Crear un Intent para pasar a la actividad de resultados
         Intent intent = new Intent(activity_formulario_vehiculo.this, activity_resultados_vehiculo.class);
 
         // Puedes agregar datos adicionales al Intent si es necesario
+        intent.putExtra("IMPORTE_RENOVACION", importeRenovacion);
+        intent.putExtra("VALOR_MATRICULA", valorMatricula);
+        intent.putExtra("MULTA_CONTAMINACION", multaContaminacion);
+        intent.putExtra("MULTA_POR_MULTAS", multaPorMultas);
+        intent.putExtra("TOTAL_PAGAR", totalPagar);
 
         // Iniciar la actividad de resultados
         startActivity(intent);
     }
 }
+

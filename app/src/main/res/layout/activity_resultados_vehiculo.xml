@@ -8,11 +8,12 @@
 
     <TextView
         android:id="@+id/lblTitulo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="64dp"
+        android:layout_width="214dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="4dp"
         android:text=" MATRICULACION VEHICULOS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,8 +81,8 @@
         android:id="@+id/lblImporte"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="212dp"
-        android:layout_marginEnd="136dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="64dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -90,7 +91,7 @@
         android:id="@+id/lblContaminacion"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="336dp"
         android:layout_marginEnd="28dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +101,7 @@
         android:id="@+id/lblValorMatricula"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="396dp"
+        android:layout_marginTop="408dp"
         android:layout_marginEnd="28dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -110,7 +111,7 @@
         android:id="@+id/lblMultas2"
         android:layout_width="170dp"
         android:layout_height="57dp"
-        android:layout_marginTop="464dp"
+        android:layout_marginTop="480dp"
         android:layout_marginEnd="28dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,10 +119,10 @@
 
     <TextView
         android:id="@+id/lblTotalPagar"
-        android:layout_width="212dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="616dp"
-        android:layout_marginEnd="100dp"
+        android:layout_width="184dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="36dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
