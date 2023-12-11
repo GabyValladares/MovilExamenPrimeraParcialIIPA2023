@@ -43,6 +43,7 @@
         android:ems="10"
         android:inputType="text"
         tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="118dp" />
+        tools:layout_editor_absoluteY="118dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

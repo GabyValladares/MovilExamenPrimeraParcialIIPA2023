@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.107" />
 
     <TextView
-        android:id="@+id/txtCedulaEnvio"
+        android:id="@+id/txtCedulaP"
         android:layout_width="384dp"
         android:layout_height="32dp"
         android:textAllCaps="false"
@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.236" />
 
     <TextView
-        android:id="@+id/txtPlaca"
+        android:id="@+id/txtNombreP"
         android:layout_width="384dp"
         android:layout_height="32dp"
         android:textAllCaps="false"
@@ -180,7 +180,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <TextView
-        android:id="@+id/txtSubcidioEnvio"
+        android:id="@+id/txtAnio"
         android:layout_width="98dp"
         android:layout_height="40dp"
         android:textAllCaps="false"
@@ -250,7 +250,7 @@
         app:layout_constraintVertical_bias="0.804" />
 
     <TextView
-        android:id="@+id/txtSueldoEnvio"
+        android:id="@+id/txtPlaca"
         android:layout_width="102dp"
         android:layout_height="34dp"
         android:textAllCaps="false"
