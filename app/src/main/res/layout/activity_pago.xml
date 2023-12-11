@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/f9071120e21f32b8540e7829e04d8e10"
     tools:context=".Pago">
 
     <TextView
@@ -38,7 +39,7 @@
         app:layout_constraintVertical_bias="0.152" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/txtresultado"
         android:layout_width="237dp"
         android:layout_height="408dp"
         android:fontFamily="sans-serif-black"
