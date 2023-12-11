@@ -27,7 +27,7 @@
             app:layout_constraintVertical_bias="0.845" />
 
         <EditText
-            android:id="@+id/txtTipo2"
+            android:id="@+id/txtTipoV"
             android:layout_width="197dp"
             android:layout_height="51dp"
             android:ems="10"
@@ -69,7 +69,7 @@
             app:layout_constraintVertical_bias="0.561" />
 
         <EditText
-            android:id="@+id/txtAni3"
+            android:id="@+id/txtCol"
             android:layout_width="192dp"
             android:layout_height="51dp"
             android:ems="10"
