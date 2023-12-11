@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.635" />
 
     <TextView
-        android:id="@+id/lblNombreEnvio"
+        android:id="@+id/lblCedulaEnvio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Número de Cédula del Propietario"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.107" />
 
     <TextView
-        android:id="@+id/txtNombreEnvio"
+        android:id="@+id/txtCedulaEnvio"
         android:layout_width="384dp"
         android:layout_height="32dp"
         android:textAllCaps="false"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.17" />
 
     <TextView
-        android:id="@+id/lblCargoEnvio"
+        android:id="@+id/lblPlaca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nombres del Propietario:"
@@ -70,7 +70,7 @@
         app:layout_constraintVertical_bias="0.236" />
 
     <TextView
-        android:id="@+id/txtCargoEnvio"
+        android:id="@+id/txtPlaca"
         android:layout_width="384dp"
         android:layout_height="32dp"
         android:textAllCaps="false"
@@ -84,7 +84,7 @@
         app:layout_constraintVertical_bias="0.281" />
 
     <TextView
-        android:id="@+id/lblSueldoEnvio"
+        android:id="@+id/lblAnioEnvio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Número de placa"
@@ -164,7 +164,7 @@
         app:layout_constraintVertical_bias="0.804" />
 
     <TextView
-        android:id="@+id/lblRolEnvio"
+        android:id="@+id/lblDatosEnvio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="DATOS VEHICULO"
