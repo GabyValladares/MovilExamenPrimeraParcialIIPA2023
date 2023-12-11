@@ -57,8 +57,8 @@ public class MatriculaMain extends AppCompatActivity {
         Matricula.putString("cedula", edCedula.getText().toString());
         Matricula.putString("nombre", edNombre.getText().toString());
         Matricula.putString("placa", edPlaca.getText().toString());
-        Matricula.putString("aniovehiculo", edAnioVehiculo.getText().toString());
-        Matricula.putString("valor", edValor.getText().toString());
+        Matricula.putInt("aniovehiculo", Integer.parseInt(edAnioVehiculo.getText().toString()));
+        Matricula.putInt("valor", Integer.parseInt(edValor.getText().toString()));
         Matricula.putString("marca", sprMarca.getSelectedItem().toString());
         Matricula.putString("tipo", sprTipo.getSelectedItem().toString());
         Matricula.putString("color", sprColor.getSelectedItem().toString());

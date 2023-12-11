@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MatriculaMain">
+    tools:context=".MatriculaMain"
+    tools:layout_editor_absoluteX="-8dp"
+    tools:layout_editor_absoluteY="-66dp">
 
     <TextView
         android:id="@+id/lblMatricula"
@@ -62,39 +64,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/lblValor"
-        android:layout_width="136dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="536dp"
-        android:text="Valor Vehiculo: "
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/lblMultas"
-        android:layout_width="78dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="612dp"
-        android:text="Multas:"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/lblMarca"
-        android:layout_width="128dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="348dp"
-        android:text="Marca:"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnEnviar"
         android:layout_width="161dp"
@@ -144,11 +113,22 @@
         android:id="@+id/txtValor"
         android:layout_width="242dp"
         android:layout_height="52dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="512dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="328dp"
         android:ems="10"
         android:inputType="text"
         android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblValor"
+        android:layout_width="136dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="352dp"
+        android:text="Valor Vehiculo: "
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -169,7 +149,18 @@
         android:layout_width="234dp"
         android:layout_height="50dp"
         android:layout_marginStart="156dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblMarca"
+        android:layout_width="128dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="404dp"
+        android:text="Marca:"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -178,7 +169,7 @@
         android:layout_width="234dp"
         android:layout_height="50dp"
         android:layout_marginStart="156dp"
-        android:layout_marginTop="392dp"
+        android:layout_marginTop="568dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -187,7 +178,7 @@
         android:layout_width="128dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="408dp"
+        android:layout_marginTop="584dp"
         android:text="Color:"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -198,7 +189,18 @@
         android:layout_width="234dp"
         android:layout_height="50dp"
         android:layout_marginStart="156dp"
-        android:layout_marginTop="452dp"
+        android:layout_marginTop="448dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblMultas"
+        android:layout_width="78dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="532dp"
+        android:text="Multas:"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -207,7 +209,7 @@
         android:layout_width="234dp"
         android:layout_height="50dp"
         android:layout_marginStart="156dp"
-        android:layout_marginTop="588dp"
+        android:layout_marginTop="508dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -216,7 +218,7 @@
         android:layout_width="128dp"
         android:layout_height="29dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="468dp"
+        android:layout_marginTop="464dp"
         android:text="Tipo: "
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
