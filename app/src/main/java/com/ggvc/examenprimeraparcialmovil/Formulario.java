@@ -34,6 +34,7 @@ public class Formulario extends AppCompatActivity {
         btn_genera = findViewById(R.id.btnCalcular);
         multas = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, opc);
         sp_tipoMulta.setAdapter(multas);
+
         btn_genera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +53,7 @@ public class Formulario extends AppCompatActivity {
                     String color = ed_color.getText().toString();
                     String tipoVehiculo = ed_tipoVehiculo.getText().toString();
                     float valor = Float.parseFloat(ed_valor.getText().toString());
-                    String multa = sp_tipoMulta.getSelectedItem().toString();
+                    String multa = "no";
 
                     Bundle datos = new Bundle();
                     datos.putInt("cedulas", cedula);
@@ -69,11 +70,12 @@ public class Formulario extends AppCompatActivity {
                     in.putExtras(datos);
                     startActivity(in);
                 } catch (NumberFormatException e) {
-                    Toast.makeText(Formulario.this, "Error: Verifique los formatos numéricos", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Formulario.this, "Error: Ingrese valores numéricos válidos en los campos correspondientes", Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
             }
         });
+
 
     }
 

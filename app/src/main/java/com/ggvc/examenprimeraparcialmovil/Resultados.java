@@ -1,10 +1,10 @@
 package com.ggvc.examenprimeraparcialmovil;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Resultados extends AppCompatActivity {
     TextView respTextView;
@@ -15,7 +15,7 @@ public class Resultados extends AppCompatActivity {
         setContentView(R.layout.activity_resultados);
 
         respTextView = findViewById(R.id.txtResultado);
-        Bundle datos = this.getIntent().getExtras();
+        Bundle datos = getIntent().getExtras();
         if (datos != null) {
             int ced = datos.getInt("cedulas");
             String nomb = datos.getString("nombres");
@@ -29,30 +29,25 @@ public class Resultados extends AppCompatActivity {
 
             float total_a_pagar = calcularTotalAPagar(ced, nomb, pla, aniosfab, marc, color, tipoVeh, val, mult);
             mostrarResultado(total_a_pagar);
-
         } else {
-            Toast.makeText(Resultados.this, "Datos no válidos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Datos no válidos", Toast.LENGTH_SHORT).show();
         }
     }
 
     public float calcularTotalAPagar(int cedula, String nombre, String placa, String anioFab, String marca, String color, String tipoV, String valor, String multa) {
-
         float importeRenovacionPlacas = 0;
         float multaContaminacion = 0;
         float valorMatriculacion = 0;
         float multaPorMultas = 0;
 
-
         if (String.valueOf(cedula).startsWith("1") && placa.startsWith("I")) {
             importeRenovacionPlacas = 0.05f * 435;
         }
-
 
         int anoFabricacion = Integer.parseInt(anioFab);
         if (anoFabricacion < 2010) {
             multaContaminacion = 0.02f * (2023 - anoFabricacion) * Float.parseFloat(valor);
         }
-
 
         if (marca.equals("Toyota")) {
             if (tipoV.equals("Jeep")) {
@@ -68,22 +63,14 @@ public class Resultados extends AppCompatActivity {
             }
         }
 
-
         if (multa.equalsIgnoreCase("SI")) {
             multaPorMultas = 0.25f * 435;
         }
-
 
         return importeRenovacionPlacas + multaContaminacion + valorMatriculacion + multaPorMultas;
     }
 
     private void mostrarResultado(final float resultado) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                respTextView.setText(String.valueOf(resultado));
-            }
-        });
+        runOnUiThread(() -> respTextView.setText(String.valueOf(resultado)));
     }
 }
-
